@@ -17,16 +17,16 @@
 
 // **************************************************************************************
 
-export const API_ENDPOINT = "https://bypass-dns-app-backend.vercel.app/api/user";
-export const BACKEND_MOVIE_API = "https://bypass-dns-app-backend.vercel.app/proxy/tmdb";
-export const BACKEND_SERVER = "https://bypass-dns-app-backend.vercel.app"
+// export const API_ENDPOINT = "https://netflix-dns-bypass-render.onrender.com/api/user";
+// export const BACKEND_MOVIE_API = "https://netflix-dns-bypass-render.onrender.com/proxy/tmdb";
+// export const BACKEND_SERVER = "https://netflix-dns-bypass-render.onrender.com"
 
 
 
 
-// export const API_ENDPOINT = "http://localhost:8000/api/user";
-// export const BACKEND_MOVIE_API = "http://localhost:8000/proxy/tmdb";
-// export const BACKEND_SERVER = "http://localhost:8000"
+export const API_ENDPOINT = "http://localhost:8000/api/user";
+export const BACKEND_MOVIE_API = "http://localhost:8000/proxy/tmdb";
+export const BACKEND_SERVER = "http://localhost:8000"
 
 
 

@@ -6,6 +6,7 @@ import { userRouter } from "./routes/userRoute.js";
 import { moviesRouter } from "./routes/moviesRoute.js";
 import { createProxyMiddleware } from "http-proxy-middleware";
 import https from "https";
+import cookieParser from 'cookie-parser'
 // import serverless from 'serverless-http' // it is for AWS Lambda function
 
 //config the env variables
@@ -30,6 +31,8 @@ const corsOptions = {
 // Handle preflight requests for all routes
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions));
+
+app.use(cookieParser())
 
 
 //database Connection
