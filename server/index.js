@@ -22,7 +22,7 @@ app.use(express.json());
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.CLIENT_URL || 'https://bypass-dns-app-frontend.vercel.app',
+  origin: process.env.CLIENT_URL || 'https://netflix-dns-bypass-render.vercel.app',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
@@ -79,4 +79,3 @@ app.listen(PORT, () => {
 
 
 
-// CLIENT_URL:'https://bypass-dns-app-frontend.vercel.app',
